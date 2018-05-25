@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<service type="wager-provider"
+         name="microtote"
+         class="com.ineda.microtote.wagering.MicrototeWagerProvider"
+         service-wrapper="com.ineda.betplus.jrun.services.WagerProviderService"
+         initial-services="1"
+         lockable="true"
+         lock-timeout="5000"
+>
+    <attribute name="Provider">MCT</attribute>
+    <attribute name="Currency">GBP</attribute>
+    <attribute name="EndPoint">https://br-roll-concourse01.int.i-neda.com:9904/</attribute>
+    <attribute name="KeyStorePassword">mark12345</attribute>
+    <attribute name="TrustStore">/app/ot.api/lib/cacert.jks</attribute>
+    <attribute name="KeyStore">/app/ot.api/lib/client-cert-key.jks</attribute>
+    <attribute name="JerseyLogPath">/app/ot.api/log/jerseyDebug.log</attribute>
+
+</service>

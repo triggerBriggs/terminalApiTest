@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="opentote1-common-99.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../opentote1/stem/common/target/opentote1-common-99.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

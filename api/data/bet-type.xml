@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<!-- Bet Types -->
+<!--
+<!DOCTYPE bet-type SYSTEM "bet-type.dtd">
+-->
+
+<bet-types>
+	<defaults
+		min-stake="200"
+		max-stake="500000"
+		min-wager="0"
+		max-wager="0"
+		single-stake="N"
+		provider-type="sgr"
+	/>
+	<bet-type
+		wager-provider = "microtote"
+		name = "Win"
+		pool = "WIN"
+		boxable="false"
+		box-code=""
+	>		
+		<stake value="50" active="1"/>
+		<stake value="100" active="1"/>
+		<stake value="200" active="1"/>
+		<stake value="300" active="1"/>
+		<stake value="500" active="1"/>
+		<stake value="1000" active="1"/>
+		<stake value="2000" active="1"/>
+		<stake value="2500" active="1"/>
+		<stake value="5000" active="1"/>
+		<stake value="10000" active="1"/>
+
+		<description language="en_US">
+			Choose a runner to finish first in a single race
+		</description>
+	</bet-type>
+	<!-- ================================================== -->
+	<bet-type
+		wager-provider = "microtote"
+		name = "Place"
+		pool = "PLC"
+		boxable="false"
+		box-code=""
+	>		
+		<stake value="50" active="1"/>
+        <stake value="100" active="1"/>
+        <stake value="200" active="1"/>
+        <stake value="300" active="1"/>
+        <stake value="500" active="1"/>
+        <stake value="1000" active="1"/>
+        <stake value="2000" active="1"/>
+        <stake value="2500" active="1"/>
+        <stake value="5000" active="1"/>
+        <stake value="10000" active="1"/>
+		<description language="en_US">
+			Choose a runner to finish first or second in a single race
+		</description>
+	</bet-type>
+	<!-- ================================================== -->
+	<bet-type
+		wager-provider = "microtote"
+		name = "Exacta"
+		pool = "EXA"
+		boxable = "true"
+		box-code="EBX"
+	>		
+		<leg race_increment="0"/>
+		<stake value="50" active="1"/>
+        <stake value="100" active="1"/>
+        <stake value="200" active="1"/>
+        <stake value="300" active="1"/>
+        <stake value="500" active="1"/>
+        <stake value="1000" active="1"/>
+        <stake value="2000" active="1"/>
+        <stake value="2500" active="1"/>
+        <stake value="5000" active="1"/>
+        <stake value="10000" active="1"/>
+		<description language="en_US">
+			Choose two horses to win and place second in a single race
+		</description>
+	</bet-type>
+	<!-- ================================================== -->
+    <bet-type
+        wager-provider = "microtote"
+        name = "Trifecta"
+        pool = "TRI"
+        boxable = "true"
+        box-code="TBX"
+    >        
+		<stake value="50" active="1"/>
+        <stake value="100" active="1"/>
+        <stake value="200" active="1"/>
+        <stake value="300" active="1"/>
+        <stake value="500" active="1"/>
+        <stake value="1000" active="1"/>
+        <stake value="2000" active="1"/>
+        <stake value="2500" active="1"/>
+        <stake value="5000" active="1"/>
+        <stake value="10000" active="1"/>
+        <description language="en_US">
+            Select the first three finishers, in exact order, for a single race
+        </description>
+    </bet-type>
+    <!-- ================================================== -->
+    <bet-type
+        wager-provider = "microtote"
+        name = "Superfecta"
+        pool = "SFC"
+        boxable = "true"
+        box-code = "SFX"
+    >
+        <stake value="50" active="1"/>
+        <stake value="100" active="1"/>
+        <stake value="200" active="1"/>
+        <stake value="300" active="1"/>
+        <stake value="500" active="1"/>
+        <stake value="1000" active="1"/>
+        <stake value="2000" active="1"/>
+        <stake value="2500" active="1"/>
+        <stake value="5000" active="1"/>
+        <stake value="10000" active="1"/>
+        <description language="en_US">
+           	Choose the first four horses (in order) to come home
+        </description>
+    </bet-type>
+	<!-- ================================================== -->
+    <bet-type
+        wager-provider = "microtote"
+        name = "Pick 4"
+        pool = "PK4"
+        boxable = "false"
+        box-code = ""
+    >
+        <stake value="50" active="1"/>
+        <stake value="100" active="1"/>
+        <stake value="200" active="1"/>
+        <stake value="300" active="1"/>
+        <stake value="500" active="1"/>
+        <stake value="1000" active="1"/>
+        <stake value="2000" active="1"/>
+        <stake value="2500" active="1"/>
+        <stake value="5000" active="1"/>
+        <stake value="10000" active="1"/>
+        <description language="en_US">
+            Choose a horse in each of four races to win
+        </description>
+    </bet-type>
+	<!-- ================================================== -->
+</bet-types>

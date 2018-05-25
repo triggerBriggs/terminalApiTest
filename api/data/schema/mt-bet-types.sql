@@ -1,0 +1,9 @@
+INSERT INTO bet_type_mapping VALUES
+	('MicroTote', '1',  'WIN', now()),
+	('MicroTote', '2',  'PLC', now()),
+	('MicroTote', '3',  'SHW', now()),
+	('MicroTote', '8',  'EXA', now()),
+	('MicroTote', '12', 'TRI', now()),
+	('MicroTote', '13', 'TBX', now()),
+	('MicroTote', '14', 'DBL', now()),
+	('MicroTote', '16', 'PK4', now());

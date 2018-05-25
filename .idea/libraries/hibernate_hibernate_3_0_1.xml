@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="hibernate:hibernate:3.0.1" type="repository">
+    <properties maven-id="hibernate:hibernate:3.0.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/hibernate/hibernate/3.0.1/hibernate-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../opentote1/stem/bet_costing/target/opentote1-bet_costing-99.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,2497 @@
+May 24, 2018 9:12:56 AM org.glassfish.jersey.internal.ServiceFinder <clinit>
+CONFIG: Running in a non-OSGi environment
+May 24, 2018 9:12:58 AM org.glassfish.jersey.internal.util.ExtendedLogger config
+CONFIG: Selected ExecutorServiceProvider implementation [org.glassfish.jersey.client.DefaultClientAsyncExecutorProvider] to be used for injection of executor qualified by [org.glassfish.jersey.client.ClientAsyncExecutor] annotation.
+May 24, 2018 9:12:58 AM org.glassfish.jersey.internal.util.ExtendedLogger config
+CONFIG: Selected ExecutorServiceProvider implementation [org.glassfish.jersey.client.DefaultClientAsyncExecutorProvider] to be used for injection of executor qualified by [org.glassfish.jersey.client.ClientAsyncExecutor] annotation.
+May 24, 2018 9:12:58 AM org.glassfish.jersey.internal.util.ExtendedLogger config
+CONFIG: Selected ExecutorServiceProvider implementation [org.glassfish.jersey.client.DefaultClientAsyncExecutorProvider] to be used for injection of executor qualified by [org.glassfish.jersey.client.ClientAsyncExecutor] annotation.
+May 24, 2018 9:12:58 AM org.glassfish.jersey.internal.util.ExtendedLogger config
+CONFIG: Selected ExecutorServiceProvider implementation [org.glassfish.jersey.client.DefaultClientAsyncExecutorProvider] to be used for injection of executor qualified by [org.glassfish.jersey.client.ClientAsyncExecutor] annotation.
+May 24, 2018 9:12:58 AM org.glassfish.jersey.internal.util.ExtendedLogger config
+CONFIG: Selected ExecutorServiceProvider implementation [org.glassfish.jersey.client.DefaultClientAsyncExecutorProvider] to be used for injection of executor qualified by [org.glassfish.jersey.client.ClientAsyncExecutor] annotation.
+May 24, 2018 9:12:58 AM org.glassfish.jersey.client.internal.HttpUrlConnector <init>
+CONFIG: Restricted headers are not enabled using [sun.net.http.allowRestrictedHeaders] system property (setting only takes effect on connections created after the property has been set/changed).
+May 24, 2018 9:12:58 AM org.glassfish.jersey.client.internal.HttpUrlConnector <init>
+CONFIG: Restricted headers are not enabled using [sun.net.http.allowRestrictedHeaders] system property (setting only takes effect on connections created after the property has been set/changed).
+May 24, 2018 9:12:58 AM org.glassfish.jersey.client.internal.HttpUrlConnector <init>
+CONFIG: Restricted headers are not enabled using [sun.net.http.allowRestrictedHeaders] system property (setting only takes effect on connections created after the property has been set/changed).
+May 24, 2018 9:12:58 AM org.glassfish.jersey.client.internal.HttpUrlConnector <init>
+CONFIG: Restricted headers are not enabled using [sun.net.http.allowRestrictedHeaders] system property (setting only takes effect on connections created after the property has been set/changed).
+May 24, 2018 9:12:58 AM org.glassfish.jersey.client.internal.HttpUrlConnector <init>
+CONFIG: Restricted headers are not enabled using [sun.net.http.allowRestrictedHeaders] system property (setting only takes effect on connections created after the property has been set/changed).
+May 24, 2018 9:12:59 AM org.glassfish.jersey.internal.util.collection.DataStructures <clinit>
+FINE: USING LTQ class:class java.util.concurrent.LinkedTransferQueue
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 2 * Sending client request on thread pool-2-thread-2
+2 > POST http://10.14.17.23:5000/v1/ping
+2 > Accept: application/json
+2 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+2 > Content-Type: text/plain
+2 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Sending client request on thread pool-1-thread-1
+1 > POST http://10.14.17.23:5000/v1/no-auth/ping
+1 > Accept: text/plain
+1 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+1 > Content-Type: text/plain
+
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Sending client request on thread pool-2-thread-1
+1 > POST http://10.14.17.23:5000/v1/ping
+1 > Accept: application/json
+1 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+1 > Content-Type: text/plain
+1 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@3dae02908 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@15ef776d9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2bce390e9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2bce4fdb5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:12:59 GMT}{Content-Length: 41}
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Client response received on thread pool-1-thread-1
+1 < 200
+1 < Content-Length: 41
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 May 2018 08:12:59 GMT
+1 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 2 * Sending client request on thread pool-1-thread-1
+2 > POST http://10.14.17.23:5000/v1/no-auth/ping
+2 > Accept: text/plain
+2 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+2 > Content-Type: text/plain
+
+
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@22c1e5a8 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3084a7e05 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:12:59 GMT}{Content-Length: 41}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@451174485 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:12:59 GMT}{Content-Length: 41}
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 2 * Client response received on thread pool-1-thread-1
+2 < 200
+2 < Content-Length: 41
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 24 May 2018 08:12:59 GMT
+2 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7d6b8fc05 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:12:59 GMT}{Content-Length: 41}
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 2 * Client response received on thread pool-2-thread-2
+2 < 200
+2 < Content-Length: 41
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 24 May 2018 08:12:59 GMT
+2 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Client response received on thread pool-2-thread-1
+1 < 200
+1 < Content-Length: 41
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 May 2018 08:12:59 GMT
+1 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 3 * Sending client request on thread pool-1-thread-1
+3 > POST http://10.14.17.23:5000/v1/no-auth/ping
+3 > Accept: text/plain
+3 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+3 > Content-Type: text/plain
+
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 3 * Sending client request on thread pool-2-thread-1
+3 > POST http://10.14.17.23:5000/v1/ping
+3 > Accept: application/json
+3 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+3 > Content-Type: text/plain
+3 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@49071b648 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6540a4999 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6ca5d4c65 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:12:59 GMT}{Content-Length: 41}
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 3 * Client response received on thread pool-1-thread-1
+3 < 200
+3 < Content-Length: 41
+3 < Content-Type: application/json; charset=utf-8
+3 < Date: Thu, 24 May 2018 08:12:59 GMT
+3 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 4 * Sending client request on thread pool-1-thread-1
+4 > POST http://10.14.17.23:5000/v1/no-auth/ping
+4 > Accept: text/plain
+4 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+4 > Content-Type: text/plain
+
+
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@e19c9c68 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1b37d4425 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:12:59 GMT}{Content-Length: 41}
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 4 * Client response received on thread pool-1-thread-1
+4 < 200
+4 < Content-Length: 41
+4 < Content-Type: application/json; charset=utf-8
+4 < Date: Thu, 24 May 2018 08:12:59 GMT
+4 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:12:59 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 5 * Sending client request on thread pool-1-thread-1
+5 > POST http://10.14.17.23:5000/v1/no-auth/ping
+5 > Accept: text/plain
+5 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+5 > Content-Type: text/plain
+
+
+May 24, 2018 9:12:59 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@502e89c5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6a1a207b8 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 3 * Client response received on thread pool-2-thread-1
+3 < 200
+3 < Content-Length: 41
+3 < Content-Type: application/json; charset=utf-8
+3 < Date: Thu, 24 May 2018 08:13:00 GMT
+3 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 4 * Sending client request on thread pool-2-thread-1
+4 > POST http://10.14.17.23:5000/v1/ping
+4 > Accept: application/json
+4 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+4 > Content-Type: text/plain
+4 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6bb8b34e9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@285bca1a5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 5 * Client response received on thread pool-1-thread-1
+5 < 200
+5 < Content-Length: 41
+5 < Content-Type: application/json; charset=utf-8
+5 < Date: Thu, 24 May 2018 08:13:00 GMT
+5 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 6 * Sending client request on thread pool-1-thread-1
+6 > POST http://10.14.17.23:5000/v1/no-auth/ping
+6 > Accept: text/plain
+6 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+6 > Content-Type: text/plain
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@68cc612e8 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4d7c2db15 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 6 * Client response received on thread pool-1-thread-1
+6 < 200
+6 < Content-Length: 41
+6 < Content-Type: application/json; charset=utf-8
+6 < Date: Thu, 24 May 2018 08:13:00 GMT
+6 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 7 * Sending client request on thread pool-1-thread-1
+7 > POST http://10.14.17.23:5000/v1/no-auth/ping
+7 > Accept: text/plain
+7 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+7 > Content-Type: text/plain
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@76ded59d8 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@254539455 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 4 * Client response received on thread pool-2-thread-1
+4 < 200
+4 < Content-Length: 41
+4 < Content-Type: application/json; charset=utf-8
+4 < Date: Thu, 24 May 2018 08:13:00 GMT
+4 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 5 * Sending client request on thread pool-2-thread-1
+5 > POST http://10.14.17.23:5000/v1/ping
+5 > Accept: application/json
+5 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+5 > Content-Type: text/plain
+5 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@45c135189 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@571563345 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 5 * Client response received on thread pool-2-thread-1
+5 < 200
+5 < Content-Length: 41
+5 < Content-Type: application/json; charset=utf-8
+5 < Date: Thu, 24 May 2018 08:13:00 GMT
+5 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 6 * Sending client request on thread pool-2-thread-1
+6 > POST http://10.14.17.23:5000/v1/ping
+6 > Accept: application/json
+6 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+6 > Content-Type: text/plain
+6 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7999885b9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@23ca465 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 7 * Client response received on thread pool-1-thread-1
+7 < 200
+7 < Content-Length: 41
+7 < Content-Type: application/json; charset=utf-8
+7 < Date: Thu, 24 May 2018 08:13:00 GMT
+7 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 8 * Sending client request on thread pool-1-thread-1
+8 > POST http://10.14.17.23:5000/v1/no-auth/ping
+8 > Accept: text/plain
+8 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+8 > Content-Type: text/plain
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@b6d0e7d8 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2750bb045 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 8 * Client response received on thread pool-1-thread-1
+8 < 200
+8 < Content-Length: 41
+8 < Content-Type: application/json; charset=utf-8
+8 < Date: Thu, 24 May 2018 08:13:00 GMT
+8 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 9 * Sending client request on thread pool-1-thread-1
+9 > POST http://10.14.17.23:5000/v1/no-auth/ping
+9 > Accept: text/plain
+9 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+9 > Content-Type: text/plain
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@27a2f04e8 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@751a093c5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 6 * Client response received on thread pool-2-thread-1
+6 < 200
+6 < Content-Length: 41
+6 < Content-Type: application/json; charset=utf-8
+6 < Date: Thu, 24 May 2018 08:13:00 GMT
+6 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@394d6f065 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 9 * Client response received on thread pool-1-thread-1
+9 < 200
+9 < Content-Length: 41
+9 < Content-Type: application/json; charset=utf-8
+9 < Date: Thu, 24 May 2018 08:13:00 GMT
+9 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 7 * Sending client request on thread pool-2-thread-1
+7 > POST http://10.14.17.23:5000/v1/ping
+7 > Accept: application/json
+7 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+7 > Content-Type: text/plain
+7 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 10 * Sending client request on thread pool-1-thread-1
+10 > POST http://10.14.17.23:5000/v1/no-auth/ping
+10 > Accept: text/plain
+10 > Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk
+10 > Content-Type: text/plain
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@39bf8b729 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@5a3090b48 pairs: {POST /v1/no-auth/ping HTTP/1.1: null}{Accept: text/plain}{Content-Type: text/plain}{Authorization: Basic NzRlcnRzZGZnczE0OnBhc3N3b3Jk}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@781a886d5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 10 * Client response received on thread pool-1-thread-1
+10 < 200
+10 < Content-Length: 41
+10 < Content-Type: application/json; charset=utf-8
+10 < Date: Thu, 24 May 2018 08:13:00 GMT
+10 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@454f43b25 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 7 * Client response received on thread pool-2-thread-1
+7 < 200
+7 < Content-Length: 41
+7 < Content-Type: application/json; charset=utf-8
+7 < Date: Thu, 24 May 2018 08:13:00 GMT
+7 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 8 * Sending client request on thread pool-2-thread-1
+8 > POST http://10.14.17.23:5000/v1/ping
+8 > Accept: application/json
+8 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+8 > Content-Type: text/plain
+8 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@70a1d0109 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@55d774d15 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 8 * Client response received on thread pool-2-thread-1
+8 < 200
+8 < Content-Length: 41
+8 < Content-Type: application/json; charset=utf-8
+8 < Date: Thu, 24 May 2018 08:13:00 GMT
+8 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 9 * Sending client request on thread pool-2-thread-1
+9 > POST http://10.14.17.23:5000/v1/ping
+9 > Accept: application/json
+9 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+9 > Content-Type: text/plain
+9 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@10f691029 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Sending client request on thread pool-3-thread-1
+1 > POST http://10.14.17.23:5000/v1/bet/place
+1 > Accept: application/json
+1 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+1 > Content-Type: application/json
+1 > Device-System-Id: 643cd362ff15427c
+{"selection":"1,3","stake":"2.00","cost":"4.00","currency":"GBP","merchant_ref":"0712aa58-0b69-41ef-9f70-21722c1c46ae","card_id":2321,"pool_id":233951}
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@706375ed9 pairs: {POST /v1/bet/place HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: application/json}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 151}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Sending client request on thread pool-4-thread-1
+1 > POST http://10.14.17.23:5000/v1/bet/place
+1 > Accept: application/json
+1 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+1 > Content-Type: application/json
+1 > Device-System-Id: 643cd362ff15427c
+{"selection":"1,3/2,4","stake":"1.00","cost":"4.00","currency":"GBP","merchant_ref":"d72f3574-93a1-4ce4-89a6-4a8b5cb85dfc","card_id":2321,"pool_id":233957}
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7f2d62709 pairs: {POST /v1/bet/place HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: application/json}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 155}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Sending client request on thread pool-5-thread-1
+1 > POST http://10.14.17.23:5000/v1/bet/place
+1 > Accept: application/json
+1 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+1 > Content-Type: application/json
+1 > Device-System-Id: 643cd362ff15427c
+{"selection":"1,3/2/4","stake":"1.00","cost":"2.00","currency":"GBP","merchant_ref":"bde10e21-1825-4094-9715-5882721f8b1d","card_id":2321,"pool_id":233960}
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@4d7c6dea9 pairs: {POST /v1/bet/place HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: application/json}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 155}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 10 * Sending client request on thread pool-2-thread-2
+10 > POST http://10.14.17.23:5000/v1/ping
+10 > Accept: application/json
+10 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+10 > Content-Type: text/plain
+10 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@5e75a5099 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2f1b127d5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 41}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 9 * Client response received on thread pool-2-thread-1
+9 < 200
+9 < Content-Length: 41
+9 < Content-Type: application/json; charset=utf-8
+9 < Date: Thu, 24 May 2018 08:13:00 GMT
+9 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 11 * Sending client request on thread pool-2-thread-1
+11 > POST http://10.14.17.23:5000/v1/ping
+11 > Accept: application/json
+11 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+11 > Content-Type: text/plain
+11 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@51c476de9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2414b4614 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Date: Thu, 24 May 2018 08:13:00 GMT}{Content-Length: 51}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Client response received on thread pool-3-thread-1
+1 < 200
+1 < Content-Length: 51
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 May 2018 08:13:00 GMT
+{"status_code":500,"description":"Internal error."}
+
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@32b7b7544 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 51}
+May 24, 2018 9:13:00 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6e6a8e884 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 51}
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Client response received on thread pool-4-thread-1
+1 < 200
+1 < Content-Length: 51
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 May 2018 08:13:01 GMT
+{"status_code":500,"description":"Internal error."}
+
+May 24, 2018 9:13:00 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 1 * Client response received on thread pool-5-thread-1
+1 < 200
+1 < Content-Length: 51
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 24 May 2018 08:13:01 GMT
+{"status_code":500,"description":"Internal error."}
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3fdbf1cb5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 11 * Client response received on thread pool-2-thread-1
+11 < 200
+11 < Content-Length: 41
+11 < Content-Type: application/json; charset=utf-8
+11 < Date: Thu, 24 May 2018 08:13:01 GMT
+11 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 12 * Sending client request on thread pool-2-thread-1
+12 > POST http://10.14.17.23:5000/v1/ping
+12 > Accept: application/json
+12 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+12 > Content-Type: text/plain
+12 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1b0109b39 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6cfe68545 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 12 * Client response received on thread pool-2-thread-1
+12 < 200
+12 < Content-Length: 41
+12 < Content-Type: application/json; charset=utf-8
+12 < Date: Thu, 24 May 2018 08:13:01 GMT
+12 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 13 * Sending client request on thread pool-2-thread-1
+13 > POST http://10.14.17.23:5000/v1/ping
+13 > Accept: application/json
+13 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+13 > Content-Type: text/plain
+13 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1efe81939 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7e4b6e2e5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 13 * Client response received on thread pool-2-thread-1
+13 < 200
+13 < Content-Length: 41
+13 < Content-Type: application/json; charset=utf-8
+13 < Date: Thu, 24 May 2018 08:13:01 GMT
+13 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 14 * Sending client request on thread pool-2-thread-1
+14 > POST http://10.14.17.23:5000/v1/ping
+14 > Accept: application/json
+14 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+14 > Content-Type: text/plain
+14 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6d94bcc59 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7237d5eb5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 14 * Client response received on thread pool-2-thread-1
+14 < 200
+14 < Content-Length: 41
+14 < Content-Type: application/json; charset=utf-8
+14 < Date: Thu, 24 May 2018 08:13:01 GMT
+14 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 15 * Sending client request on thread pool-2-thread-1
+15 > POST http://10.14.17.23:5000/v1/ping
+15 > Accept: application/json
+15 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+15 > Content-Type: text/plain
+15 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@18af20279 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3db017025 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 15 * Client response received on thread pool-2-thread-1
+15 < 200
+15 < Content-Length: 41
+15 < Content-Type: application/json; charset=utf-8
+15 < Date: Thu, 24 May 2018 08:13:01 GMT
+15 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 16 * Sending client request on thread pool-2-thread-1
+16 > POST http://10.14.17.23:5000/v1/ping
+16 > Accept: application/json
+16 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+16 > Content-Type: text/plain
+16 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@758ae6e59 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@395eed325 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 16 * Client response received on thread pool-2-thread-1
+16 < 200
+16 < Content-Length: 41
+16 < Content-Type: application/json; charset=utf-8
+16 < Date: Thu, 24 May 2018 08:13:01 GMT
+16 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 17 * Sending client request on thread pool-2-thread-1
+17 > POST http://10.14.17.23:5000/v1/ping
+17 > Accept: application/json
+17 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+17 > Content-Type: text/plain
+17 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@58114c269 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@652448215 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 17 * Client response received on thread pool-2-thread-1
+17 < 200
+17 < Content-Length: 41
+17 < Content-Type: application/json; charset=utf-8
+17 < Date: Thu, 24 May 2018 08:13:01 GMT
+17 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 18 * Sending client request on thread pool-2-thread-1
+18 > POST http://10.14.17.23:5000/v1/ping
+18 > Accept: application/json
+18 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+18 > Content-Type: text/plain
+18 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@473b37ae9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@94265065 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:01 GMT}{Content-Length: 41}
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 18 * Client response received on thread pool-2-thread-1
+18 < 200
+18 < Content-Length: 41
+18 < Content-Type: application/json; charset=utf-8
+18 < Date: Thu, 24 May 2018 08:13:01 GMT
+18 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:01 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 19 * Sending client request on thread pool-2-thread-1
+19 > POST http://10.14.17.23:5000/v1/ping
+19 > Accept: application/json
+19 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+19 > Content-Type: text/plain
+19 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:01 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@5be078749 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1cc256695 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 19 * Client response received on thread pool-2-thread-1
+19 < 200
+19 < Content-Length: 41
+19 < Content-Type: application/json; charset=utf-8
+19 < Date: Thu, 24 May 2018 08:13:02 GMT
+19 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 20 * Sending client request on thread pool-2-thread-1
+20 > POST http://10.14.17.23:5000/v1/ping
+20 > Accept: application/json
+20 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+20 > Content-Type: text/plain
+20 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@25a94189 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@18aaab005 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 20 * Client response received on thread pool-2-thread-1
+20 < 200
+20 < Content-Length: 41
+20 < Content-Type: application/json; charset=utf-8
+20 < Date: Thu, 24 May 2018 08:13:02 GMT
+20 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 21 * Sending client request on thread pool-2-thread-1
+21 > POST http://10.14.17.23:5000/v1/ping
+21 > Accept: application/json
+21 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+21 > Content-Type: text/plain
+21 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@40d143b99 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4eae34d45 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 21 * Client response received on thread pool-2-thread-1
+21 < 200
+21 < Content-Length: 41
+21 < Content-Type: application/json; charset=utf-8
+21 < Date: Thu, 24 May 2018 08:13:02 GMT
+21 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 22 * Sending client request on thread pool-2-thread-1
+22 > POST http://10.14.17.23:5000/v1/ping
+22 > Accept: application/json
+22 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+22 > Content-Type: text/plain
+22 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1882834d9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@55bdd9f65 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 22 * Client response received on thread pool-2-thread-1
+22 < 200
+22 < Content-Length: 41
+22 < Content-Type: application/json; charset=utf-8
+22 < Date: Thu, 24 May 2018 08:13:02 GMT
+22 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 23 * Sending client request on thread pool-2-thread-1
+23 > POST http://10.14.17.23:5000/v1/ping
+23 > Accept: application/json
+23 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+23 > Content-Type: text/plain
+23 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1f3b84739 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@208c0bd45 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 23 * Client response received on thread pool-2-thread-1
+23 < 200
+23 < Content-Length: 41
+23 < Content-Type: application/json; charset=utf-8
+23 < Date: Thu, 24 May 2018 08:13:02 GMT
+23 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 24 * Sending client request on thread pool-2-thread-1
+24 > POST http://10.14.17.23:5000/v1/ping
+24 > Accept: application/json
+24 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+24 > Content-Type: text/plain
+24 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2c187c639 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1751627f5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 24 * Client response received on thread pool-2-thread-1
+24 < 200
+24 < Content-Length: 41
+24 < Content-Type: application/json; charset=utf-8
+24 < Date: Thu, 24 May 2018 08:13:02 GMT
+24 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 25 * Sending client request on thread pool-2-thread-1
+25 > POST http://10.14.17.23:5000/v1/ping
+25 > Accept: application/json
+25 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+25 > Content-Type: text/plain
+25 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@540a64fa9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@149817045 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 25 * Client response received on thread pool-2-thread-1
+25 < 200
+25 < Content-Length: 41
+25 < Content-Type: application/json; charset=utf-8
+25 < Date: Thu, 24 May 2018 08:13:02 GMT
+25 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 26 * Sending client request on thread pool-2-thread-1
+26 > POST http://10.14.17.23:5000/v1/ping
+26 > Accept: application/json
+26 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+26 > Content-Type: text/plain
+26 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7b8c8a909 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@67524d045 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:02 GMT}{Content-Length: 41}
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 26 * Client response received on thread pool-2-thread-1
+26 < 200
+26 < Content-Length: 41
+26 < Content-Type: application/json; charset=utf-8
+26 < Date: Thu, 24 May 2018 08:13:02 GMT
+26 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:02 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 27 * Sending client request on thread pool-2-thread-1
+27 > POST http://10.14.17.23:5000/v1/ping
+27 > Accept: application/json
+27 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+27 > Content-Type: text/plain
+27 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:02 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6078d8a09 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@348cc39c5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 27 * Client response received on thread pool-2-thread-1
+27 < 200
+27 < Content-Length: 41
+27 < Content-Type: application/json; charset=utf-8
+27 < Date: Thu, 24 May 2018 08:13:03 GMT
+27 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 28 * Sending client request on thread pool-2-thread-1
+28 > POST http://10.14.17.23:5000/v1/ping
+28 > Accept: application/json
+28 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+28 > Content-Type: text/plain
+28 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2bcb07979 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5e0455875 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 28 * Client response received on thread pool-2-thread-1
+28 < 200
+28 < Content-Length: 41
+28 < Content-Type: application/json; charset=utf-8
+28 < Date: Thu, 24 May 2018 08:13:03 GMT
+28 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 29 * Sending client request on thread pool-2-thread-1
+29 > POST http://10.14.17.23:5000/v1/ping
+29 > Accept: application/json
+29 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+29 > Content-Type: text/plain
+29 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@781f2b3f9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2a5d97835 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 29 * Client response received on thread pool-2-thread-1
+29 < 200
+29 < Content-Length: 41
+29 < Content-Type: application/json; charset=utf-8
+29 < Date: Thu, 24 May 2018 08:13:03 GMT
+29 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 30 * Sending client request on thread pool-2-thread-1
+30 > POST http://10.14.17.23:5000/v1/ping
+30 > Accept: application/json
+30 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+30 > Content-Type: text/plain
+30 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@59d9cae09 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@258d14315 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 30 * Client response received on thread pool-2-thread-1
+30 < 200
+30 < Content-Length: 41
+30 < Content-Type: application/json; charset=utf-8
+30 < Date: Thu, 24 May 2018 08:13:03 GMT
+30 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 31 * Sending client request on thread pool-2-thread-1
+31 > POST http://10.14.17.23:5000/v1/ping
+31 > Accept: application/json
+31 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+31 > Content-Type: text/plain
+31 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@244a856c9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@62edffe95 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 31 * Client response received on thread pool-2-thread-1
+31 < 200
+31 < Content-Length: 41
+31 < Content-Type: application/json; charset=utf-8
+31 < Date: Thu, 24 May 2018 08:13:03 GMT
+31 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 32 * Sending client request on thread pool-2-thread-1
+32 > POST http://10.14.17.23:5000/v1/ping
+32 > Accept: application/json
+32 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+32 > Content-Type: text/plain
+32 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7574a79e9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3815099d5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 32 * Client response received on thread pool-2-thread-1
+32 < 200
+32 < Content-Length: 41
+32 < Content-Type: application/json; charset=utf-8
+32 < Date: Thu, 24 May 2018 08:13:03 GMT
+32 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 33 * Sending client request on thread pool-2-thread-1
+33 > POST http://10.14.17.23:5000/v1/ping
+33 > Accept: application/json
+33 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+33 > Content-Type: text/plain
+33 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@48849a169 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@451b36585 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 33 * Client response received on thread pool-2-thread-1
+33 < 200
+33 < Content-Length: 41
+33 < Content-Type: application/json; charset=utf-8
+33 < Date: Thu, 24 May 2018 08:13:03 GMT
+33 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 34 * Sending client request on thread pool-2-thread-1
+34 > POST http://10.14.17.23:5000/v1/ping
+34 > Accept: application/json
+34 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+34 > Content-Type: text/plain
+34 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@150331329 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@54a9bee5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:03 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 34 * Client response received on thread pool-2-thread-1
+34 < 200
+34 < Content-Length: 41
+34 < Content-Type: application/json; charset=utf-8
+34 < Date: Thu, 24 May 2018 08:13:03 GMT
+34 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 35 * Sending client request on thread pool-2-thread-1
+35 > POST http://10.14.17.23:5000/v1/ping
+35 > Accept: application/json
+35 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+35 > Content-Type: text/plain
+35 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6972f57b9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@75c7b7fb5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 35 * Client response received on thread pool-2-thread-1
+35 < 200
+35 < Content-Length: 41
+35 < Content-Type: application/json; charset=utf-8
+35 < Date: Thu, 24 May 2018 08:13:04 GMT
+35 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:03 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 36 * Sending client request on thread pool-2-thread-1
+36 > POST http://10.14.17.23:5000/v1/ping
+36 > Accept: application/json
+36 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+36 > Content-Type: text/plain
+36 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:03 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@79c182d09 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2885f3ed5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 36 * Client response received on thread pool-2-thread-1
+36 < 200
+36 < Content-Length: 41
+36 < Content-Type: application/json; charset=utf-8
+36 < Date: Thu, 24 May 2018 08:13:04 GMT
+36 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 37 * Sending client request on thread pool-2-thread-1
+37 > POST http://10.14.17.23:5000/v1/ping
+37 > Accept: application/json
+37 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+37 > Content-Type: text/plain
+37 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@562212ab9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1e921ffb5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 37 * Client response received on thread pool-2-thread-1
+37 < 200
+37 < Content-Length: 41
+37 < Content-Type: application/json; charset=utf-8
+37 < Date: Thu, 24 May 2018 08:13:04 GMT
+37 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 38 * Sending client request on thread pool-2-thread-1
+38 > POST http://10.14.17.23:5000/v1/ping
+38 > Accept: application/json
+38 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+38 > Content-Type: text/plain
+38 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6b30c9fb9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6cad45eb5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 38 * Client response received on thread pool-2-thread-1
+38 < 200
+38 < Content-Length: 41
+38 < Content-Type: application/json; charset=utf-8
+38 < Date: Thu, 24 May 2018 08:13:04 GMT
+38 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 39 * Sending client request on thread pool-2-thread-1
+39 > POST http://10.14.17.23:5000/v1/ping
+39 > Accept: application/json
+39 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+39 > Content-Type: text/plain
+39 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2adca59f9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@243f0af85 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 39 * Client response received on thread pool-2-thread-1
+39 < 200
+39 < Content-Length: 41
+39 < Content-Type: application/json; charset=utf-8
+39 < Date: Thu, 24 May 2018 08:13:04 GMT
+39 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 40 * Sending client request on thread pool-2-thread-1
+40 > POST http://10.14.17.23:5000/v1/ping
+40 > Accept: application/json
+40 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+40 > Content-Type: text/plain
+40 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@49ad70959 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4fa9e6565 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 40 * Client response received on thread pool-2-thread-1
+40 < 200
+40 < Content-Length: 41
+40 < Content-Type: application/json; charset=utf-8
+40 < Date: Thu, 24 May 2018 08:13:04 GMT
+40 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 41 * Sending client request on thread pool-2-thread-1
+41 > POST http://10.14.17.23:5000/v1/ping
+41 > Accept: application/json
+41 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+41 > Content-Type: text/plain
+41 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@9652619 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5ca2f0415 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 41 * Client response received on thread pool-2-thread-1
+41 < 200
+41 < Content-Length: 41
+41 < Content-Type: application/json; charset=utf-8
+41 < Date: Thu, 24 May 2018 08:13:04 GMT
+41 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 42 * Sending client request on thread pool-2-thread-1
+42 > POST http://10.14.17.23:5000/v1/ping
+42 > Accept: application/json
+42 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+42 > Content-Type: text/plain
+42 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7ea90a989 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7eb2c84d5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:04 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 42 * Client response received on thread pool-2-thread-1
+42 < 200
+42 < Content-Length: 41
+42 < Content-Type: application/json; charset=utf-8
+42 < Date: Thu, 24 May 2018 08:13:04 GMT
+42 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 43 * Sending client request on thread pool-2-thread-1
+43 > POST http://10.14.17.23:5000/v1/ping
+43 > Accept: application/json
+43 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+43 > Content-Type: text/plain
+43 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@4c0588a09 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:04 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@76e59995 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 43 * Client response received on thread pool-2-thread-1
+43 < 200
+43 < Content-Length: 41
+43 < Content-Type: application/json; charset=utf-8
+43 < Date: Thu, 24 May 2018 08:13:05 GMT
+43 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:04 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 44 * Sending client request on thread pool-2-thread-1
+44 > POST http://10.14.17.23:5000/v1/ping
+44 > Accept: application/json
+44 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+44 > Content-Type: text/plain
+44 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@31a56e269 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@593d38ff5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 44 * Client response received on thread pool-2-thread-1
+44 < 200
+44 < Content-Length: 41
+44 < Content-Type: application/json; charset=utf-8
+44 < Date: Thu, 24 May 2018 08:13:05 GMT
+44 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 45 * Sending client request on thread pool-2-thread-1
+45 > POST http://10.14.17.23:5000/v1/ping
+45 > Accept: application/json
+45 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+45 > Content-Type: text/plain
+45 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@391dfbf09 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4ccacfdb5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 45 * Client response received on thread pool-2-thread-1
+45 < 200
+45 < Content-Length: 41
+45 < Content-Type: application/json; charset=utf-8
+45 < Date: Thu, 24 May 2018 08:13:05 GMT
+45 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 46 * Sending client request on thread pool-2-thread-1
+46 > POST http://10.14.17.23:5000/v1/ping
+46 > Accept: application/json
+46 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+46 > Content-Type: text/plain
+46 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@56044c3a9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@664e7cc55 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 46 * Client response received on thread pool-2-thread-1
+46 < 200
+46 < Content-Length: 41
+46 < Content-Type: application/json; charset=utf-8
+46 < Date: Thu, 24 May 2018 08:13:05 GMT
+46 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 47 * Sending client request on thread pool-2-thread-1
+47 > POST http://10.14.17.23:5000/v1/ping
+47 > Accept: application/json
+47 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+47 > Content-Type: text/plain
+47 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@305ad9879 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2af47c405 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 47 * Client response received on thread pool-2-thread-1
+47 < 200
+47 < Content-Length: 41
+47 < Content-Type: application/json; charset=utf-8
+47 < Date: Thu, 24 May 2018 08:13:05 GMT
+47 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 48 * Sending client request on thread pool-2-thread-1
+48 > POST http://10.14.17.23:5000/v1/ping
+48 > Accept: application/json
+48 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+48 > Content-Type: text/plain
+48 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@5ee580b89 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4bd877f55 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 48 * Client response received on thread pool-2-thread-1
+48 < 200
+48 < Content-Length: 41
+48 < Content-Type: application/json; charset=utf-8
+48 < Date: Thu, 24 May 2018 08:13:05 GMT
+48 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 49 * Sending client request on thread pool-2-thread-1
+49 > POST http://10.14.17.23:5000/v1/ping
+49 > Accept: application/json
+49 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+49 > Content-Type: text/plain
+49 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2da819e89 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@243776615 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 49 * Client response received on thread pool-2-thread-1
+49 < 200
+49 < Content-Length: 41
+49 < Content-Type: application/json; charset=utf-8
+49 < Date: Thu, 24 May 2018 08:13:05 GMT
+49 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 50 * Sending client request on thread pool-2-thread-1
+50 > POST http://10.14.17.23:5000/v1/ping
+50 > Accept: application/json
+50 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+50 > Content-Type: text/plain
+50 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@56a5c21f9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5eca60e15 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 50 * Client response received on thread pool-2-thread-1
+50 < 200
+50 < Content-Length: 41
+50 < Content-Type: application/json; charset=utf-8
+50 < Date: Thu, 24 May 2018 08:13:05 GMT
+50 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 51 * Sending client request on thread pool-2-thread-1
+51 > POST http://10.14.17.23:5000/v1/ping
+51 > Accept: application/json
+51 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+51 > Content-Type: text/plain
+51 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@33c045899 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2c5ba9ee5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:05 GMT}{Content-Length: 41}
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 51 * Client response received on thread pool-2-thread-1
+51 < 200
+51 < Content-Length: 41
+51 < Content-Type: application/json; charset=utf-8
+51 < Date: Thu, 24 May 2018 08:13:05 GMT
+51 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:05 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 52 * Sending client request on thread pool-2-thread-1
+52 > POST http://10.14.17.23:5000/v1/ping
+52 > Accept: application/json
+52 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+52 > Content-Type: text/plain
+52 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:05 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@541633409 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:06 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@59569c4b5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:06 GMT}{Content-Length: 41}
+May 24, 2018 9:13:06 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 52 * Client response received on thread pool-2-thread-1
+52 < 200
+52 < Content-Length: 41
+52 < Content-Type: application/json; charset=utf-8
+52 < Date: Thu, 24 May 2018 08:13:06 GMT
+52 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4f0635155 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:10 GMT}{Content-Length: 41}
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 10 * Client response received on thread pool-2-thread-2
+10 < 200
+10 < Content-Length: 41
+10 < Content-Type: application/json; charset=utf-8
+10 < Date: Thu, 24 May 2018 08:13:10 GMT
+10 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 53 * Sending client request on thread pool-2-thread-2
+53 > POST http://10.14.17.23:5000/v1/ping
+53 > Accept: application/json
+53 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+53 > Content-Type: text/plain
+53 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@281b3e369 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1c3ad8705 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:10 GMT}{Content-Length: 41}
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 53 * Client response received on thread pool-2-thread-2
+53 < 200
+53 < Content-Length: 41
+53 < Content-Type: application/json; charset=utf-8
+53 < Date: Thu, 24 May 2018 08:13:10 GMT
+53 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 54 * Sending client request on thread pool-2-thread-2
+54 > POST http://10.14.17.23:5000/v1/ping
+54 > Accept: application/json
+54 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+54 > Content-Type: text/plain
+54 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6f947b139 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@114445695 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:10 GMT}{Content-Length: 41}
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 54 * Client response received on thread pool-2-thread-2
+54 < 200
+54 < Content-Length: 41
+54 < Content-Type: application/json; charset=utf-8
+54 < Date: Thu, 24 May 2018 08:13:10 GMT
+54 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 55 * Sending client request on thread pool-2-thread-2
+55 > POST http://10.14.17.23:5000/v1/ping
+55 > Accept: application/json
+55 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+55 > Content-Type: text/plain
+55 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@605f23f99 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2aec9eda5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:10 GMT}{Content-Length: 41}
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 55 * Client response received on thread pool-2-thread-2
+55 < 200
+55 < Content-Length: 41
+55 < Content-Type: application/json; charset=utf-8
+55 < Date: Thu, 24 May 2018 08:13:10 GMT
+55 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 56 * Sending client request on thread pool-2-thread-2
+56 > POST http://10.14.17.23:5000/v1/ping
+56 > Accept: application/json
+56 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+56 > Content-Type: text/plain
+56 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@666c24779 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@55304ade5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:10 GMT}{Content-Length: 41}
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 56 * Client response received on thread pool-2-thread-2
+56 < 200
+56 < Content-Length: 41
+56 < Content-Type: application/json; charset=utf-8
+56 < Date: Thu, 24 May 2018 08:13:10 GMT
+56 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 57 * Sending client request on thread pool-2-thread-2
+57 > POST http://10.14.17.23:5000/v1/ping
+57 > Accept: application/json
+57 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+57 > Content-Type: text/plain
+57 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@4c69eb6a9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2bdb6735 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:10 GMT}{Content-Length: 41}
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 57 * Client response received on thread pool-2-thread-2
+57 < 200
+57 < Content-Length: 41
+57 < Content-Type: application/json; charset=utf-8
+57 < Date: Thu, 24 May 2018 08:13:10 GMT
+57 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 58 * Sending client request on thread pool-2-thread-2
+58 > POST http://10.14.17.23:5000/v1/ping
+58 > Accept: application/json
+58 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+58 > Content-Type: text/plain
+58 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@5f575cf9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5244b9155 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:10 GMT}{Content-Length: 41}
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 58 * Client response received on thread pool-2-thread-2
+58 < 200
+58 < Content-Length: 41
+58 < Content-Type: application/json; charset=utf-8
+58 < Date: Thu, 24 May 2018 08:13:10 GMT
+58 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:10 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 59 * Sending client request on thread pool-2-thread-2
+59 > POST http://10.14.17.23:5000/v1/ping
+59 > Accept: application/json
+59 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+59 > Content-Type: text/plain
+59 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:10 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@51753a8c9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3e1410ff5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 59 * Client response received on thread pool-2-thread-2
+59 < 200
+59 < Content-Length: 41
+59 < Content-Type: application/json; charset=utf-8
+59 < Date: Thu, 24 May 2018 08:13:11 GMT
+59 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 60 * Sending client request on thread pool-2-thread-2
+60 > POST http://10.14.17.23:5000/v1/ping
+60 > Accept: application/json
+60 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+60 > Content-Type: text/plain
+60 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@106141ff9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@679adef75 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 60 * Client response received on thread pool-2-thread-2
+60 < 200
+60 < Content-Length: 41
+60 < Content-Type: application/json; charset=utf-8
+60 < Date: Thu, 24 May 2018 08:13:11 GMT
+60 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 61 * Sending client request on thread pool-2-thread-2
+61 > POST http://10.14.17.23:5000/v1/ping
+61 > Accept: application/json
+61 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+61 > Content-Type: text/plain
+61 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1fc329d29 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1ce413d5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 61 * Client response received on thread pool-2-thread-2
+61 < 200
+61 < Content-Length: 41
+61 < Content-Type: application/json; charset=utf-8
+61 < Date: Thu, 24 May 2018 08:13:11 GMT
+61 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 62 * Sending client request on thread pool-2-thread-2
+62 > POST http://10.14.17.23:5000/v1/ping
+62 > Accept: application/json
+62 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+62 > Content-Type: text/plain
+62 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1bba96429 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2a669ea45 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 62 * Client response received on thread pool-2-thread-2
+62 < 200
+62 < Content-Length: 41
+62 < Content-Type: application/json; charset=utf-8
+62 < Date: Thu, 24 May 2018 08:13:11 GMT
+62 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 63 * Sending client request on thread pool-2-thread-2
+63 > POST http://10.14.17.23:5000/v1/ping
+63 > Accept: application/json
+63 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+63 > Content-Type: text/plain
+63 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2c6dbf839 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5fd9d49a5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 63 * Client response received on thread pool-2-thread-2
+63 < 200
+63 < Content-Length: 41
+63 < Content-Type: application/json; charset=utf-8
+63 < Date: Thu, 24 May 2018 08:13:11 GMT
+63 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 64 * Sending client request on thread pool-2-thread-2
+64 > POST http://10.14.17.23:5000/v1/ping
+64 > Accept: application/json
+64 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+64 > Content-Type: text/plain
+64 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@101e51a59 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@e136ebc5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 64 * Client response received on thread pool-2-thread-2
+64 < 200
+64 < Content-Length: 41
+64 < Content-Type: application/json; charset=utf-8
+64 < Date: Thu, 24 May 2018 08:13:11 GMT
+64 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 65 * Sending client request on thread pool-2-thread-2
+65 > POST http://10.14.17.23:5000/v1/ping
+65 > Accept: application/json
+65 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+65 > Content-Type: text/plain
+65 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@4fc3595a9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5e2f293c5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 65 * Client response received on thread pool-2-thread-2
+65 < 200
+65 < Content-Length: 41
+65 < Content-Type: application/json; charset=utf-8
+65 < Date: Thu, 24 May 2018 08:13:11 GMT
+65 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 66 * Sending client request on thread pool-2-thread-2
+66 > POST http://10.14.17.23:5000/v1/ping
+66 > Accept: application/json
+66 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+66 > Content-Type: text/plain
+66 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@3cded8259 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@292d278c5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:11 GMT}{Content-Length: 41}
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 66 * Client response received on thread pool-2-thread-2
+66 < 200
+66 < Content-Length: 41
+66 < Content-Type: application/json; charset=utf-8
+66 < Date: Thu, 24 May 2018 08:13:11 GMT
+66 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:11 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 67 * Sending client request on thread pool-2-thread-2
+67 > POST http://10.14.17.23:5000/v1/ping
+67 > Accept: application/json
+67 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+67 > Content-Type: text/plain
+67 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:11 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@51b4b2559 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2027b86b5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 67 * Client response received on thread pool-2-thread-2
+67 < 200
+67 < Content-Length: 41
+67 < Content-Type: application/json; charset=utf-8
+67 < Date: Thu, 24 May 2018 08:13:12 GMT
+67 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 68 * Sending client request on thread pool-2-thread-2
+68 > POST http://10.14.17.23:5000/v1/ping
+68 > Accept: application/json
+68 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+68 > Content-Type: text/plain
+68 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7bdc16649 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4532af5b5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 68 * Client response received on thread pool-2-thread-2
+68 < 200
+68 < Content-Length: 41
+68 < Content-Type: application/json; charset=utf-8
+68 < Date: Thu, 24 May 2018 08:13:12 GMT
+68 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 69 * Sending client request on thread pool-2-thread-2
+69 > POST http://10.14.17.23:5000/v1/ping
+69 > Accept: application/json
+69 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+69 > Content-Type: text/plain
+69 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@31608bb29 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2c9999155 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 69 * Client response received on thread pool-2-thread-2
+69 < 200
+69 < Content-Length: 41
+69 < Content-Type: application/json; charset=utf-8
+69 < Date: Thu, 24 May 2018 08:13:12 GMT
+69 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 70 * Sending client request on thread pool-2-thread-2
+70 > POST http://10.14.17.23:5000/v1/ping
+70 > Accept: application/json
+70 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+70 > Content-Type: text/plain
+70 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@376dd5d49 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6775ec155 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 70 * Client response received on thread pool-2-thread-2
+70 < 200
+70 < Content-Length: 41
+70 < Content-Type: application/json; charset=utf-8
+70 < Date: Thu, 24 May 2018 08:13:12 GMT
+70 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 71 * Sending client request on thread pool-2-thread-2
+71 > POST http://10.14.17.23:5000/v1/ping
+71 > Accept: application/json
+71 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+71 > Content-Type: text/plain
+71 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@52fdc6529 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@32ccbc295 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 71 * Client response received on thread pool-2-thread-2
+71 < 200
+71 < Content-Length: 41
+71 < Content-Type: application/json; charset=utf-8
+71 < Date: Thu, 24 May 2018 08:13:12 GMT
+71 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 72 * Sending client request on thread pool-2-thread-2
+72 > POST http://10.14.17.23:5000/v1/ping
+72 > Accept: application/json
+72 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+72 > Content-Type: text/plain
+72 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6b561cd19 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@238b50ea5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 72 * Client response received on thread pool-2-thread-2
+72 < 200
+72 < Content-Length: 41
+72 < Content-Type: application/json; charset=utf-8
+72 < Date: Thu, 24 May 2018 08:13:12 GMT
+72 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 73 * Sending client request on thread pool-2-thread-2
+73 > POST http://10.14.17.23:5000/v1/ping
+73 > Accept: application/json
+73 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+73 > Content-Type: text/plain
+73 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1f78cd9f9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@488217ad5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 73 * Client response received on thread pool-2-thread-2
+73 < 200
+73 < Content-Length: 41
+73 < Content-Type: application/json; charset=utf-8
+73 < Date: Thu, 24 May 2018 08:13:12 GMT
+73 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 74 * Sending client request on thread pool-2-thread-2
+74 > POST http://10.14.17.23:5000/v1/ping
+74 > Accept: application/json
+74 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+74 > Content-Type: text/plain
+74 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@13692af89 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6a1c347f5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:12 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 74 * Client response received on thread pool-2-thread-2
+74 < 200
+74 < Content-Length: 41
+74 < Content-Type: application/json; charset=utf-8
+74 < Date: Thu, 24 May 2018 08:13:12 GMT
+74 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 75 * Sending client request on thread pool-2-thread-2
+75 > POST http://10.14.17.23:5000/v1/ping
+75 > Accept: application/json
+75 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+75 > Content-Type: text/plain
+75 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@33d108969 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6b364e3e5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 75 * Client response received on thread pool-2-thread-2
+75 < 200
+75 < Content-Length: 41
+75 < Content-Type: application/json; charset=utf-8
+75 < Date: Thu, 24 May 2018 08:13:13 GMT
+75 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:12 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 76 * Sending client request on thread pool-2-thread-2
+76 > POST http://10.14.17.23:5000/v1/ping
+76 > Accept: application/json
+76 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+76 > Content-Type: text/plain
+76 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:12 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@31d2874a9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3a66f2c35 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 76 * Client response received on thread pool-2-thread-2
+76 < 200
+76 < Content-Length: 41
+76 < Content-Type: application/json; charset=utf-8
+76 < Date: Thu, 24 May 2018 08:13:13 GMT
+76 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 77 * Sending client request on thread pool-2-thread-2
+77 > POST http://10.14.17.23:5000/v1/ping
+77 > Accept: application/json
+77 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+77 > Content-Type: text/plain
+77 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@148d8a19 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@585631085 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 77 * Client response received on thread pool-2-thread-2
+77 < 200
+77 < Content-Length: 41
+77 < Content-Type: application/json; charset=utf-8
+77 < Date: Thu, 24 May 2018 08:13:13 GMT
+77 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 78 * Sending client request on thread pool-2-thread-2
+78 > POST http://10.14.17.23:5000/v1/ping
+78 > Accept: application/json
+78 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+78 > Content-Type: text/plain
+78 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7d1b159f9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@70e600155 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 78 * Client response received on thread pool-2-thread-2
+78 < 200
+78 < Content-Length: 41
+78 < Content-Type: application/json; charset=utf-8
+78 < Date: Thu, 24 May 2018 08:13:13 GMT
+78 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 79 * Sending client request on thread pool-2-thread-2
+79 > POST http://10.14.17.23:5000/v1/ping
+79 > Accept: application/json
+79 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+79 > Content-Type: text/plain
+79 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@37ac53789 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5e1beaf45 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 79 * Client response received on thread pool-2-thread-2
+79 < 200
+79 < Content-Length: 41
+79 < Content-Type: application/json; charset=utf-8
+79 < Date: Thu, 24 May 2018 08:13:13 GMT
+79 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 80 * Sending client request on thread pool-2-thread-2
+80 > POST http://10.14.17.23:5000/v1/ping
+80 > Accept: application/json
+80 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+80 > Content-Type: text/plain
+80 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7b09ab459 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@3bafea995 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 80 * Client response received on thread pool-2-thread-2
+80 < 200
+80 < Content-Length: 41
+80 < Content-Type: application/json; charset=utf-8
+80 < Date: Thu, 24 May 2018 08:13:13 GMT
+80 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 81 * Sending client request on thread pool-2-thread-2
+81 > POST http://10.14.17.23:5000/v1/ping
+81 > Accept: application/json
+81 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+81 > Content-Type: text/plain
+81 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@6e4d49079 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6f0052705 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 81 * Client response received on thread pool-2-thread-2
+81 < 200
+81 < Content-Length: 41
+81 < Content-Type: application/json; charset=utf-8
+81 < Date: Thu, 24 May 2018 08:13:13 GMT
+81 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 82 * Sending client request on thread pool-2-thread-2
+82 > POST http://10.14.17.23:5000/v1/ping
+82 > Accept: application/json
+82 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+82 > Content-Type: text/plain
+82 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@59659f569 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1dda5dc15 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 82 * Client response received on thread pool-2-thread-2
+82 < 200
+82 < Content-Length: 41
+82 < Content-Type: application/json; charset=utf-8
+82 < Date: Thu, 24 May 2018 08:13:13 GMT
+82 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 83 * Sending client request on thread pool-2-thread-2
+83 > POST http://10.14.17.23:5000/v1/ping
+83 > Accept: application/json
+83 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+83 > Content-Type: text/plain
+83 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@195b3a0c9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@742578855 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:13 GMT}{Content-Length: 41}
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 83 * Client response received on thread pool-2-thread-2
+83 < 200
+83 < Content-Length: 41
+83 < Content-Type: application/json; charset=utf-8
+83 < Date: Thu, 24 May 2018 08:13:13 GMT
+83 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:13 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 84 * Sending client request on thread pool-2-thread-2
+84 > POST http://10.14.17.23:5000/v1/ping
+84 > Accept: application/json
+84 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+84 > Content-Type: text/plain
+84 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:13 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@14fd6789 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@4e34b7c55 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 84 * Client response received on thread pool-2-thread-2
+84 < 200
+84 < Content-Length: 41
+84 < Content-Type: application/json; charset=utf-8
+84 < Date: Thu, 24 May 2018 08:13:14 GMT
+84 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 85 * Sending client request on thread pool-2-thread-2
+85 > POST http://10.14.17.23:5000/v1/ping
+85 > Accept: application/json
+85 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+85 > Content-Type: text/plain
+85 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@e7f6f559 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@5141cf4f5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 85 * Client response received on thread pool-2-thread-2
+85 < 200
+85 < Content-Length: 41
+85 < Content-Type: application/json; charset=utf-8
+85 < Date: Thu, 24 May 2018 08:13:14 GMT
+85 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 86 * Sending client request on thread pool-2-thread-2
+86 > POST http://10.14.17.23:5000/v1/ping
+86 > Accept: application/json
+86 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+86 > Content-Type: text/plain
+86 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2ec22f099 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@45a33f8b5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 86 * Client response received on thread pool-2-thread-2
+86 < 200
+86 < Content-Length: 41
+86 < Content-Type: application/json; charset=utf-8
+86 < Date: Thu, 24 May 2018 08:13:14 GMT
+86 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 87 * Sending client request on thread pool-2-thread-2
+87 > POST http://10.14.17.23:5000/v1/ping
+87 > Accept: application/json
+87 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+87 > Content-Type: text/plain
+87 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@30d3e5ad9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6fb77f4f5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 87 * Client response received on thread pool-2-thread-2
+87 < 200
+87 < Content-Length: 41
+87 < Content-Type: application/json; charset=utf-8
+87 < Date: Thu, 24 May 2018 08:13:14 GMT
+87 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 88 * Sending client request on thread pool-2-thread-2
+88 > POST http://10.14.17.23:5000/v1/ping
+88 > Accept: application/json
+88 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+88 > Content-Type: text/plain
+88 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@5032bfd79 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@cb19d3d5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 88 * Client response received on thread pool-2-thread-2
+88 < 200
+88 < Content-Length: 41
+88 < Content-Type: application/json; charset=utf-8
+88 < Date: Thu, 24 May 2018 08:13:14 GMT
+88 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 89 * Sending client request on thread pool-2-thread-2
+89 > POST http://10.14.17.23:5000/v1/ping
+89 > Accept: application/json
+89 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+89 > Content-Type: text/plain
+89 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@2360ef8b9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@7779a1af5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 89 * Client response received on thread pool-2-thread-2
+89 < 200
+89 < Content-Length: 41
+89 < Content-Type: application/json; charset=utf-8
+89 < Date: Thu, 24 May 2018 08:13:14 GMT
+89 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 90 * Sending client request on thread pool-2-thread-2
+90 > POST http://10.14.17.23:5000/v1/ping
+90 > Accept: application/json
+90 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+90 > Content-Type: text/plain
+90 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@32f064909 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@32284f865 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 90 * Client response received on thread pool-2-thread-2
+90 < 200
+90 < Content-Length: 41
+90 < Content-Type: application/json; charset=utf-8
+90 < Date: Thu, 24 May 2018 08:13:14 GMT
+90 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 91 * Sending client request on thread pool-2-thread-2
+91 > POST http://10.14.17.23:5000/v1/ping
+91 > Accept: application/json
+91 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+91 > Content-Type: text/plain
+91 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1610f2ff9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@2cde4d4b5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:14 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 91 * Client response received on thread pool-2-thread-2
+91 < 200
+91 < Content-Length: 41
+91 < Content-Type: application/json; charset=utf-8
+91 < Date: Thu, 24 May 2018 08:13:14 GMT
+91 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 92 * Sending client request on thread pool-2-thread-2
+92 > POST http://10.14.17.23:5000/v1/ping
+92 > Accept: application/json
+92 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+92 > Content-Type: text/plain
+92 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1dbb78a49 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@6d1f40ea5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 92 * Client response received on thread pool-2-thread-2
+92 < 200
+92 < Content-Length: 41
+92 < Content-Type: application/json; charset=utf-8
+92 < Date: Thu, 24 May 2018 08:13:15 GMT
+92 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:14 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 93 * Sending client request on thread pool-2-thread-2
+93 > POST http://10.14.17.23:5000/v1/ping
+93 > Accept: application/json
+93 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+93 > Content-Type: text/plain
+93 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:14 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@7c89c0bc9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@22e36e735 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 93 * Client response received on thread pool-2-thread-2
+93 < 200
+93 < Content-Length: 41
+93 < Content-Type: application/json; charset=utf-8
+93 < Date: Thu, 24 May 2018 08:13:15 GMT
+93 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 94 * Sending client request on thread pool-2-thread-2
+94 > POST http://10.14.17.23:5000/v1/ping
+94 > Accept: application/json
+94 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+94 > Content-Type: text/plain
+94 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@64db5cd39 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@735448b25 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 94 * Client response received on thread pool-2-thread-2
+94 < 200
+94 < Content-Length: 41
+94 < Content-Type: application/json; charset=utf-8
+94 < Date: Thu, 24 May 2018 08:13:15 GMT
+94 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 95 * Sending client request on thread pool-2-thread-2
+95 > POST http://10.14.17.23:5000/v1/ping
+95 > Accept: application/json
+95 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+95 > Content-Type: text/plain
+95 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@41eaea449 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@78c384fc5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 95 * Client response received on thread pool-2-thread-2
+95 < 200
+95 < Content-Length: 41
+95 < Content-Type: application/json; charset=utf-8
+95 < Date: Thu, 24 May 2018 08:13:15 GMT
+95 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 96 * Sending client request on thread pool-2-thread-2
+96 > POST http://10.14.17.23:5000/v1/ping
+96 > Accept: application/json
+96 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+96 > Content-Type: text/plain
+96 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@46c062f39 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1700b3415 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 96 * Client response received on thread pool-2-thread-2
+96 < 200
+96 < Content-Length: 41
+96 < Content-Type: application/json; charset=utf-8
+96 < Date: Thu, 24 May 2018 08:13:15 GMT
+96 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 97 * Sending client request on thread pool-2-thread-2
+97 > POST http://10.14.17.23:5000/v1/ping
+97 > Accept: application/json
+97 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+97 > Content-Type: text/plain
+97 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1aec32f9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@65ae43825 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 97 * Client response received on thread pool-2-thread-2
+97 < 200
+97 < Content-Length: 41
+97 < Content-Type: application/json; charset=utf-8
+97 < Date: Thu, 24 May 2018 08:13:15 GMT
+97 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 98 * Sending client request on thread pool-2-thread-2
+98 > POST http://10.14.17.23:5000/v1/ping
+98 > Accept: application/json
+98 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+98 > Content-Type: text/plain
+98 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@20bc723e9 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@323457d35 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 98 * Client response received on thread pool-2-thread-2
+98 < 200
+98 < Content-Length: 41
+98 < Content-Type: application/json; charset=utf-8
+98 < Date: Thu, 24 May 2018 08:13:15 GMT
+98 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 99 * Sending client request on thread pool-2-thread-2
+99 > POST http://10.14.17.23:5000/v1/ping
+99 > Accept: application/json
+99 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+99 > Content-Type: text/plain
+99 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@45f45d019 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@52d1b46e5 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:15 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 99 * Client response received on thread pool-2-thread-2
+99 < 200
+99 < Content-Length: 41
+99 < Content-Type: application/json; charset=utf-8
+99 < Date: Thu, 24 May 2018 08:13:15 GMT
+99 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 100 * Sending client request on thread pool-2-thread-2
+100 > POST http://10.14.17.23:5000/v1/ping
+100 > Accept: application/json
+100 > Authorization: Basic NzQxNDpwYXNzd29yZA==
+100 > Content-Type: text/plain
+100 > Device-System-Id: 643cd362ff15427c
+
+
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@113f01889 pairs: {POST /v1/ping HTTP/1.1: null}{Accept: application/json}{Device-System-Id: 643cd362ff15427c}{Content-Type: text/plain}{Authorization: Basic NzQxNDpwYXNzd29yZA==}{User-Agent: Jersey/2.25.1 (HttpUrlConnection 1.8.0_51)}{Host: 10.14.17.23:5000}{Connection: keep-alive}{Content-Length: 0}
+May 24, 2018 9:13:15 AM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@12546b35 pairs: {null: HTTP/1.1 200 OK}{Content-Type: application/json; charset=utf-8}{Pattern: /ping}{Date: Thu, 24 May 2018 08:13:16 GMT}{Content-Length: 41}
+May 24, 2018 9:13:15 AM org.glassfish.jersey.logging.LoggingInterceptor log
+FINE: 100 * Client response received on thread pool-2-thread-2
+100 < 200
+100 < Content-Length: 41
+100 < Content-Type: application/json; charset=utf-8
+100 < Date: Thu, 24 May 2018 08:13:16 GMT
+100 < Pattern: /ping
+{"status_code":200,"description":"Okay."}
+

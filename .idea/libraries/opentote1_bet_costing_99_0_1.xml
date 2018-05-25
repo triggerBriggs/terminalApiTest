@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="opentote1-bet_costing-99.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../opentote1/stem/bet_costing/target/opentote1-bet_costing-99.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
